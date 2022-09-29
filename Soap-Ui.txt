@@ -1,0 +1,37 @@
+
+Número (Adivinar el número)
+---------------------------------------------------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:utez="utez">
+   <soapenv:Header/>
+   <soapenv:Body><utez:responseMessage>
+         <palabra>Edwin</palabra>
+      </utez:responseMessage>
+   </soapenv:Body>
+</soapenv:Envelope>
+---------------------------------------------------------------------
+
+Palabra (Solo consonantes)
+--------------------------------------------------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:utez="utez">
+   <soapenv:Header/>
+   <soapenv:Body><utez:responseMessage2>
+         <num>Edwin</num>
+      </utez:responseMessage2>
+   </soapenv:Body>
+</soapenv:Envelope>
+---------------------------------------------------------------------
+
+Calcular RFC
+---------------------------------------------------------------------
+<soapenv:Envelope xmlns:soapenv="http://schemas.xmlsoap.org/soap/envelope/" xmlns:utez="utez">
+   <soapenv:Header/>
+   <soapenv:Body><utez:responseMessage3>
+         <nombre>Edwin</nombre>
+         <ap1>Barragan</ap1>
+         <ap2>Valdovinos</ap2>
+         <dia>09</dia>
+         <mes>07</mes>
+         <anio>04</anio>
+      </utez:responseMessage3>
+   </soapenv:Body>
+</soapenv:Envelope>
